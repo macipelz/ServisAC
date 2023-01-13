@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgrnd"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="7dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/TextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="CV. Arjuna Sakti Technic"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/View08"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000" />
+
+            <TextView
+                android:id="@+id/TextView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Detail Riwayat Perbaikan"
+                android:textSize="16dip"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/View1"
+                android:layout_width="190dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#000" />
+
+        <TextView
+            android:id="@+id/listNa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Teknisi :"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/listNamaTeknisi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Teknisi"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/listNoServis2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/listHargaSpare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/listMerkAC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merk AC"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/listRusakServis2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Kerusakan"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/listSparepart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sparepart"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/listNoTeknisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Hp Teknisi"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/listTglServis2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="right"
+                android:text="Tanggal Servis"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="italic|bold" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_bayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#448AFF"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="INPUT PEMBAYARAN"/>
+
+</LinearLayout>

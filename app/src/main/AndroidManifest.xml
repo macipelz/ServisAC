@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chandra.servisac">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".App.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="com.onesignal.NotificationOpened.DEFAULT" android:value="DISABLE" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivityTeknisi" />
+        <activity android:name=".RegisterTeknisi" />
+        <activity android:name=".LoginTeknisi" />
+        <activity
+            android:name=".Pesan"
+            android:label="@string/title_activity_pesan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ReportKonsumen" />
+        <activity android:name=".TambahServis" />
+        <activity android:name=".TambahPesan" />
+        <activity android:name=".TambahBayar" />
+        <activity android:name=".TerimaPesan" />
+        <activity android:name=".RiwayatPesan" />
+        <activity android:name=".RiwayatServis" />
+        <activity android:name=".RiwayatServisTeknisi" />
+        <activity android:name=".DetailServis" />
+        <activity android:name=".DetailServisTeknisi" />
+        <activity android:name=".RiwayatBayar" />
+        <activity android:name=".RiwayatBayarTeknisi" />
+        <activity android:name=".DetailBayar" />
+        <activity android:name=".EditProfilTek" />
+        <activity android:name=".Notif" />
+        <activity android:name=".Notif2" />
+        <activity
+            android:name=".Sparepart"
+            android:label="@string/title_activity_pesan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SparepartMasuk"
+            android:label="@string/title_activity_pesan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EditProfil"></activity>
+    </application>
+
+</manifest>
