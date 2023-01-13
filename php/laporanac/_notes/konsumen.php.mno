@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RecKonsumen" value="name:hp_konsumen;datatype:string,name:nama;datatype:string,name:alamat;datatype:string" />
+</info>

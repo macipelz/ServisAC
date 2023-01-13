@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2 {
+  margin-bottom: 50px;
+}
+ 
+.container {
+  text-align: center;
+  overflow: hidden;
+  width: 800px;
+  margin: 0 auto;
+}
+ 
+.container table {
+  width: 100%;
+}
+ 
+.container td, .container th {
+  padding: 10px;
+}
+ 
+.container td:first-child, .container th:first-child {
+  padding-left: 20px;
+}
+ 
+.container td:last-child, .container th:last-child {
+  padding-right: 20px;
+}
+ 
+.container th {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.tombol{
+  background:#2C97DF;
+  color:white;
+  border-top:5px;
+  border-left:5px;
+  border-right:5px;
+  border-bottom:5px solid #2A80B9;
+  padding:10px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:15pt;
+}
